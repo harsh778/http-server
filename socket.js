@@ -2,9 +2,6 @@
   port: 6789
   web_directory: ./www */
 
-
-
-
 var socket = new Socket();
 socket.bind("127.0.0.1", 6789);
 socket.listen(1); //listen at 1
